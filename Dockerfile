@@ -28,10 +28,3 @@ USER jovyan
 
 RUN pip install --no-cache-dir geopandas babypandas
 
-# Override command to disable running jupyter notebook at launch
-# CMD ["/bin/bash"]
-<<<<<<< HEAD
-
-=======
->>>>>>> 7912d4b62f1afa91b39ba387789f1129e0160494
-
