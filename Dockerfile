@@ -1,4 +1,5 @@
-ARG BASE_CONTAINER = ucsdets/datascience-notebook:2021.2-stable
+#ARG BASE_CONTAINER = ucsdets/datascience-notebook:2021.2-stable
+ARG BASE_CONTAINER = ucsdets/datahub-base-notebook:2021.2-stable
 
 FROM $BASE_CONTAINER
 
